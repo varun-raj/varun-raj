@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
+@font-face {
+  font-family: 'catull';
+
+  src: url('../fonts/catull.ttf');
+  src:  url('../fonts/catull.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'instagram';
+
+  src: url('../fonts/instagram.ttf');
+  src:  url('../fonts/instagram.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'fq';
+
+  src: url('../fonts/fq.otf');
+
+}
+body{
+  background: #000;
+  text-align: center;
+}
+.body{
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+#particles-js{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.bio{
+  z-index: 10;
+    margin-top:  0;
+  margin-bottom:  100px;
+}
+.bio-name{
+  z-index: 1000;
+margin: 0;
+font-size: 70px;
+color: #fff;
+font-family: 'Slabo 13px', serif;
+}
+.bio-text {
+  z-index: 10;
+  width: 30%;
+  margin: 0 auto;
+  clear: both;
+  font-size: 60px;
+  color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  cursor: hand;
+}
+.bio-text a{
+  color: inherit;
+  text-decoration: none;
+}
+.bio-text .code:hover{
+  font-family: 'Consolas';
+  color: #fff;
+}
+.bio-text .tw:hover{
+  color: #00ACED;
+}
+.bio-text .fb:hover{
+  font-family: 'Tahoma';
+  color: #3b5998;
+}
+.bio-text .fs:hover{
+  color: #25a0ca;
+  font-family: 'fq';
+}
+.bio-text .gp:hover{
+  color: #d34836;
+  font-size: 73px;
+  font-family: 'catull';
+}
+.bio-text .wr:hover{
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+}
+
+.bio-text .ist:hover{
+  font-family: 'instagram', serif;
+  color: #fff;
+  font-size: 75px;
+}
+.bio-title{
+  font-family: 'Bree Serif', serif;
+  font-size: 80px;
+}
+
+
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
+}
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background:url(../img/me.jpg) center;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.hexagon-in2:hover {
+  
+}
+.hexagon1 {
+  width: 400px;
+  height: 200px;
+  margin: 0 0 0 -80px;
+}
+.hexagon2 {
+  width: 200px;
+  height: 400px;
+  margin: -80px 0 0 20px;
+}
+.dodecagon {
+  width: 200px;
+  height: 200px;
+  margin: -80px 0 0 20px;
+}
+.social-share {
+  padding-top: 30px;
+}
