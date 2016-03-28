@@ -1,47 +1,37 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 @import url(http://fonts.googleapis.com/css?family=Slabo+13px);
-@font-face {
-  font-family: 'catull';
 
-  src: url('../fonts/catull.ttf');
-  src:  url('../fonts/catull.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'instagram';
-
-  src: url('../fonts/instagram.ttf');
-  src:  url('../fonts/instagram.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'fq';
-
-  src: url('../fonts/fq.otf');
-
-}
 body{
   background: #000;
   text-align: center;
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-.body{
+.body-bg{
   position: absolute;
   width: 100%;
-  z-index: 1000;
+  z-index: -1;
+  top:0;
   margin: auto;
   text-align: center;
   color: #fff;
   padding-top: 50px;
-}
-#particles-js{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 0;
+  background: url('../img/bg.jpg') center;
+  height: 100vh;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 .bio{
-  z-index: 10;
+    z-index: 10;
     margin-top:  0;
-  margin-bottom:  100px;
+    margin-bottom:  100px;
 }
 .bio-name{
   z-index: 1000;
@@ -60,44 +50,35 @@ font-family: 'Slabo 13px', serif;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   cursor: hand;
+  margin-top: 20px;
 }
 .bio-text a{
   color: inherit;
   text-decoration: none;
 }
 .bio-text .code:hover{
-  font-family: 'Consolas';
   color: #fff;
 }
 .bio-text .tw:hover{
   color: #00ACED;
 }
 .bio-text .fb:hover{
-  font-family: 'Tahoma';
   color: #3b5998;
 }
 .bio-text .fs:hover{
   color: #25a0ca;
-  font-family: 'fq';
 }
 .bio-text .gp:hover{
   color: #d34836;
-  font-size: 73px;
-  font-family: 'catull';
 }
 .bio-text .wr:hover{
-  font-family: 'Bree Serif', serif;
   color: #fff;
 }
 
 .bio-text .ist:hover{
-  font-family: 'instagram', serif;
   color: #fff;
-  font-size: 75px;
 }
 .bio-title{
-  font-family: 'Bree Serif', serif;
-  font-size: 80px;
 }
 
 
@@ -124,6 +105,7 @@ font-family: 'Slabo 13px', serif;
   height: 100%;
   background-repeat: no-repeat;
   background-position: 100%;
+  background-size: 100%;
   background:url(../img/me.jpg) center;
   visibility: visible;
   -webkit-transform: rotate(-60deg);
@@ -132,7 +114,7 @@ font-family: 'Slabo 13px', serif;
   transform: rotate(-60deg);
 }
 .hexagon-in2:hover {
-  
+
 }
 .hexagon1 {
   width: 400px;
@@ -142,7 +124,7 @@ font-family: 'Slabo 13px', serif;
 .hexagon2 {
   width: 200px;
   height: 400px;
-  margin: -80px 0 0 20px;
+  margin: 0 0 0 20px;
 }
 .dodecagon {
   width: 200px;
@@ -151,4 +133,8 @@ font-family: 'Slabo 13px', serif;
 }
 .social-share {
   padding-top: 30px;
+}
+
+.write-to-me{
+  margin-top: 20px;
 }
