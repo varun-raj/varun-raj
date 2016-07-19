@@ -1,140 +1,52 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+13px);
-
-body{
-  background: #000;
-  text-align: center;
-  background: #4b6cb7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+html {
+  background-color: #ececd5;
 
 }
-.body-bg{
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  top:0;
-  margin: auto;
-  text-align: center;
-  color: #fff;
-  padding-top: 50px;
-  background: url('../img/bg.jpg') center;
-  height: 100vh;
-  opacity: 0.2;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-.bio{
-    z-index: 10;
-    margin-top:  0;
-    margin-bottom:  100px;
-}
-.bio-name{
-  z-index: 1000;
-margin: 0;
-font-size: 70px;
-color: #fff;
-font-family: 'Slabo 13px', serif;
+body {
+  background-color: #ececd5;
+  min-height: 100vh;
 }
 .bio-text {
-  z-index: 10;
-  width: 30%;
   margin: 0 auto;
   clear: both;
-  font-size: 60px;
-  color: #cccccc;
+  font-size: 45px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  cursor: hand;
-  margin-top: 20px;
+  font-weight: 900;
+  width: 70%;
+  padding: 10px;
+  max-height: 100vh;
+  padding-top: 100px;
+}
+.bio-text hr {
+  border: none;
+  height: 1px;
+  background-color: #3f61ea;
 }
 .bio-text a{
-  color: inherit;
+  color: #fff;
   text-decoration: none;
+  text-shadow: 0px 0px 0.5px #3f61ea;
 }
-.bio-text .code:hover{
-  color: #fff;
-}
-.bio-text .tw:hover{
-  color: #00ACED;
-}
-.bio-text .fb:hover{
-  color: #3b5998;
-}
-.bio-text .fs:hover{
-  color: #25a0ca;
-}
-.bio-text .gp:hover{
-  color: #d34836;
-}
-.bio-text .wr:hover{
-  color: #fff;
-}
-
-.bio-text .ist:hover{
-  color: #fff;
-}
-.bio-title{
-}
-
-
-.hexagon {
-  overflow: hidden;
-  visibility: hidden;
-  -webkit-transform: rotate(120deg);
-  -moz-transform: rotate(120deg);
-  -o-transform: rotate(120deg);
-  transform: rotate(120deg);
-  cursor: pointer;
-}
-.hexagon-in1 {
-  overflow: hidden;
+.bio-text p {
+  color: #3F61EA;
+} 
+.contact-link{
   width: 100%;
-  height: 100%;
-  -webkit-transform: rotate(-60deg);
-  -moz-transform: rotate(-60deg);
-  -o-transform: rotate(-60deg);
-  transform: rotate(-60deg);
+  text-align: center;
 }
-.hexagon-in2 {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-size: 100%;
-  background:url(../img/me.jpg) center;
-  visibility: visible;
-  -webkit-transform: rotate(-60deg);
-  -moz-transform: rotate(-60deg);
-  -o-transform: rotate(-60deg);
-  transform: rotate(-60deg);
-}
-.hexagon-in2:hover {
+.contact-link a{
+  color: #3F61EA;
+  font-size: 17px;
+  text-shadow:none;
+  font-weight: 600;
 
 }
-.hexagon1 {
-  width: 400px;
-  height: 200px;
-  margin: 0 0 0 -80px;
-}
-.hexagon2 {
-  width: 200px;
-  height: 400px;
-  margin: 0 0 0 20px;
-}
-.dodecagon {
-  width: 200px;
-  height: 200px;
-  margin: -80px 0 0 20px;
-}
-.social-share {
-  padding-top: 30px;
+
+.contact-link p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-shadow: 0px 0.25px 0.5px #000;
 }
 
-.write-to-me{
-  margin-top: 20px;
-}
