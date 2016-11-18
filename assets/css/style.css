@@ -1,52 +1,36 @@
-@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
-html {
-  background-color: #ececd5;
-
-}
 body {
-  background-color: #ececd5;
+  background-color: #101010;
   min-height: 100vh;
 }
 .bio-text {
   margin: 0 auto;
   clear: both;
-  font-size: 45px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  width: 70%;
+  font-size: 15px;
+  font-family: 'Domine', serif;
   padding: 10px;
   max-height: 100vh;
   padding-top: 100px;
-}
-.bio-text hr {
-  border: none;
-  height: 1px;
-  background-color: #3f61ea;
+  color: #fff;
+  font-weight: 100;
 }
 .bio-text a{
   color: #fff;
-  text-decoration: none;
-  text-shadow: 0px 0px 0.5px #3f61ea;
-}
-.bio-text p {
-  color: #3F61EA;
 } 
-.contact-link{
-  width: 100%;
-  text-align: center;
-}
-.contact-link a{
-  color: #3F61EA;
-  font-size: 17px;
-  text-shadow:none;
-  font-weight: 600;
 
-}
+.bio-text p{
+  margin-top: 35px;
+  line-height: 30px;
+} 
 
-.contact-link p {
-  color: #fff;
-  font-size: 17px;
-  font-weight: 600;
-  text-shadow: 0px 0.25px 0.5px #000;
+.adjectives {
+  margin-top: 50px;
+  list-style: none;
+  padding-left: 0px;
 }
 
+.adjectives li {
+  display: inline-block;
+  font-weight: 100;
+      padding-right: 8px;
+    font-size: 18px;
+}
